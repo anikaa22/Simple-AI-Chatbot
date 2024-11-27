@@ -1,0 +1,47 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome", "Happy to help!"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["What is your name?", "What can i call you?", "Do you have a name?", "How can I address you?"],
+         "responses": ["You can call me Jarvis", "I was named Jarvis by my creator", "I go by Jarvis"],
+         "context": [""]
+        },
+        {"tag": "joke",
+        "patterns": ["tell me a joke", "say something funny", "can you crack a joke?", "i want to hear a joke", "make me laugh"],
+        "responses": ["Why did Beethoven get rid of his chickens? All they said was, “Bach, Bach, Bach …”", "Why did the man propose to the woman working at the zoo? She was a keeper.",
+        "What do you call fake spaghetti? An impasta.", "Why was the cell phone wearing glasses? It lost its contacts.", "Why do programmers prefer dark mode? Because light attracts bugs.",
+        "What do you call cheese that isn’t yours? Nacho cheese."],
+        "context": [""]
+        },
+        {"tag": "origin",
+        "patterns" : ["who built you?", "do you have an owner?", "are you sentient?", "who made you?", "do you know your owner?"],
+        "responses": ["I was built by a developer called Anika", "I have been programmed by Anika to respond to your queries"],
+        "context": [""]
+        },
+        {"tag":"apologize",
+        "patterns": ["you made a mistake", "I didn't get that", "I think you might have made an error", "This isn't the answer i was looking for", "You responded incorrectly", "you are wrong"],
+        "responses": ["Apologies! I'll try to do better", "Oops! I have some learning to do", "Sorry, I'm not perfect yet but I'm working on it!"],
+        "context": [""]
+        },
+        {
+        "tag": "unknown",
+        "patterns": [],
+        "responses": ["I'm sorry, I didn't understand that. Can you try rephrasing?", "Hmm, I'm not sure about that. Could you clarify?", "Sorry I'm not trained to answer that just yet. Can I help you with something else?"],
+        "context": [""]
+        }
+        
+
+    ]}
